@@ -1,0 +1,4 @@
+public void FireProjectile()
+{
+    Instantiate(projectilePrefab, transform.position + transform.forward, Quaternion.identity);
+}

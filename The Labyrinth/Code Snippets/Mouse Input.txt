@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class PlayerShooting : MonoBehaviour
+{
+    public GameObject projectilePrefab;
+    public Transform firePoint;
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0)) // Left Click
+        {
+            Shoot();
+        }
+    }
+
+    void Shoot()
+    {
+        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        projectile.GetComponent<Rigidbody>().velocity = firePoint.forward * 10f;
+    }
+}

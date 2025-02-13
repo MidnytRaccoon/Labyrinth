@@ -1,0 +1,577 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.26f1 (ccb7c73d2c02) revision 13416391'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16280 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Lenovo Thinkpad E580/Documents/Projects/Unity Projects/Labyrinth/The Labyrinth
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64586
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Lenovo Thinkpad E580/Documents/Projects/Unity Projects/Labyrinth/The Labyrinth
+C:/Users/Lenovo Thinkpad E580/Documents/Projects/Unity Projects/Labyrinth/The Labyrinth
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17816]  Target information:
+
+Player connection [17816]  * "[IP] 172.17.24.117 [Port] 0 [Flags] 2 [Guid] 2782219457 [EditorId] 2782219457 [Version] 1048832 [Id] WindowsEditor(7,NEO-CARBON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 19.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo Thinkpad E580/Documents/Projects/Unity Projects/Labyrinth/The Labyrinth/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 550 (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     1993 MB
+    Driver:   30.0.14030.0
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.112734 seconds.
+- Loaded All Assemblies, in  8.250 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 29.141 seconds
+Domain Reload Profiling: 37353ms
+	BeginReloadAssembly (2467ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (844ms)
+	RebuildNativeTypeToScriptingClass (287ms)
+	initialDomainReloadingComplete (971ms)
+	LoadAllAssembliesAndSetupDomain (3640ms)
+		LoadAssemblies (2420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3572ms)
+			TypeCache.Refresh (3551ms)
+				TypeCache.ScanAssembly (3110ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (29144ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (27485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2042ms)
+			SetLoadedEditorAssemblies (515ms)
+			BeforeProcessingInitializeOnLoad (389ms)
+			ProcessInitializeOnLoadAttributes (20607ms)
+			ProcessInitializeOnLoadMethodAttributes (2317ms)
+			AfterProcessingInitializeOnLoad (1614ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 19.862 seconds
+Refreshing native plugins compatible for Editor in 8.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.906 seconds
+Domain Reload Profiling: 35695ms
+	BeginReloadAssembly (8445ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (140ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (500ms)
+	RebuildCommonClasses (644ms)
+	RebuildNativeTypeToScriptingClass (187ms)
+	initialDomainReloadingComplete (850ms)
+	LoadAllAssembliesAndSetupDomain (9659ms)
+		LoadAssemblies (7165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4167ms)
+			TypeCache.Refresh (2691ms)
+				TypeCache.ScanAssembly (2409ms)
+			BuildScriptInfoCaches (1308ms)
+			ResolveRequiredComponents (142ms)
+	FinalizeReload (15910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (11733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (148ms)
+			BeforeProcessingInitializeOnLoad (1796ms)
+			ProcessInitializeOnLoadAttributes (7926ms)
+			ProcessInitializeOnLoadMethodAttributes (1651ms)
+			AfterProcessingInitializeOnLoad (171ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (85ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 10.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5910 unused Assets / (3.6 MB). Loaded Objects now: 6676.
+Memory consumption went from 178.0 MB to 174.4 MB.
+Total: 82.667000 ms (FindLiveObjects: 6.627600 ms CreateObjectMapping: 4.581700 ms MarkObjects: 52.114700 ms  DeleteObjects: 19.338000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91644.606717 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.2001698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Couldn't register non-exiting asset root folder: 'Assets'
+AssetDatabase failed to register asset folder Assets
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 20.150 seconds
+Refreshing native plugins compatible for Editor in 7.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.922 seconds
+Domain Reload Profiling: 31055ms
+	BeginReloadAssembly (4336ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (144ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (481ms)
+	RebuildCommonClasses (1171ms)
+	RebuildNativeTypeToScriptingClass (413ms)
+	initialDomainReloadingComplete (1135ms)
+	LoadAllAssembliesAndSetupDomain (13076ms)
+		LoadAssemblies (6719ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9195ms)
+			TypeCache.Refresh (580ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8463ms)
+			ResolveRequiredComponents (129ms)
+	FinalizeReload (10925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (76ms)
+			BeforeProcessingInitializeOnLoad (1244ms)
+			ProcessInitializeOnLoadAttributes (5997ms)
+			ProcessInitializeOnLoadMethodAttributes (612ms)
+			AfterProcessingInitializeOnLoad (88ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (159ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5904 unused Assets / (3.9 MB). Loaded Objects now: 6691.
+Memory consumption went from 160.4 MB to 156.5 MB.
+Total: 54.996500 ms (FindLiveObjects: 2.246900 ms CreateObjectMapping: 3.671900 ms MarkObjects: 32.816200 ms  DeleteObjects: 16.256900 ms)
+
+Prepare: number of updated asset objects reloaded= 29
+========================================================================
+Received Prepare
+Couldn't register non-exiting asset root folder: 'Assets'
+AssetDatabase failed to register asset folder Assets
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (12.9 MB). Loaded Objects now: 6567.
+Memory consumption went from 154.9 MB to 141.9 MB.
+Total: 56.369000 ms (FindLiveObjects: 1.693000 ms CreateObjectMapping: 2.173400 ms MarkObjects: 44.753100 ms  DeleteObjects: 7.744900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Couldn't register non-exiting asset root folder: 'Assets'
+AssetDatabase failed to register asset folder Assets
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (3.0 MB). Loaded Objects now: 6567.
+Memory consumption went from 146.3 MB to 143.3 MB.
+Total: 162.602700 ms (FindLiveObjects: 1.646400 ms CreateObjectMapping: 11.260100 ms MarkObjects: 145.780400 ms  DeleteObjects: 3.908500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 24.080 seconds
+Refreshing native plugins compatible for Editor in 12.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.647 seconds
+Domain Reload Profiling: 41674ms
+	BeginReloadAssembly (3878ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (76ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (651ms)
+	RebuildCommonClasses (923ms)
+	RebuildNativeTypeToScriptingClass (230ms)
+	initialDomainReloadingComplete (618ms)
+	LoadAllAssembliesAndSetupDomain (18369ms)
+		LoadAssemblies (14363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6733ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (6293ms)
+			ResolveRequiredComponents (307ms)
+	FinalizeReload (17656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (221ms)
+			SetLoadedEditorAssemblies (112ms)
+			BeforeProcessingInitializeOnLoad (3681ms)
+			ProcessInitializeOnLoadAttributes (7102ms)
+			ProcessInitializeOnLoadMethodAttributes (1475ms)
+			AfterProcessingInitializeOnLoad (94ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 15.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5908 unused Assets / (4.1 MB). Loaded Objects now: 6697.
+Memory consumption went from 168.1 MB to 164.0 MB.
+Total: 147.056200 ms (FindLiveObjects: 7.075200 ms CreateObjectMapping: 24.000800 ms MarkObjects: 99.504700 ms  DeleteObjects: 16.469600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.8 MB). Loaded Objects now: 6697.
+Memory consumption went from 155.0 MB to 153.1 MB.
+Total: 62.304900 ms (FindLiveObjects: 1.891600 ms CreateObjectMapping: 1.465200 ms MarkObjects: 57.444400 ms  DeleteObjects: 1.496300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1336.532063 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47424603eb732b965e5870e4b8838a6b') in 4.0335579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SFX/Shoot.wav
+  artifactKey: Guid(03a24adbc56317a4880781f4df8450d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Shoot.wav using Guid(03a24adbc56317a4880781f4df8450d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5bd7184d8cb14ab49563f4d90efd1f0') in 0.5703568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07a82c6b927ea08a2fbe715d3b9f74c3') in 0.8057017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SFX/Enemy_Die.wav
+  artifactKey: Guid(3d903de342913c34fb2ba8b3cd64ab49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Enemy_Die.wav using Guid(3d903de342913c34fb2ba8b3cd64ab49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6a7c36ad361b5af03b60999c3e34a7c') in 0.3389123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SFX/Crate_Pickup.wav
+  artifactKey: Guid(23fde750ec661b54e9a962723cc3cef4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Crate_Pickup.wav using Guid(23fde750ec661b54e9a962723cc3cef4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '972b617846fc9473a2fe5669fc3d5bf9') in 0.3429127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/SFX/Laser_Shoot.wav
+  artifactKey: Guid(9b12d5684e482e94395e3b5632f78673) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Laser_Shoot.wav using Guid(9b12d5684e482e94395e3b5632f78673) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee8a657bd0a642f446d6ee7a9a6fa8b4') in 0.2709678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b40e3b55634903b4257bb39d518d329e') in 0.2528226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92a8e3e1f4fc4b9fc7f2c60764ad3d4f') in 0.1100652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SFX/Wall_Hit.wav
+  artifactKey: Guid(e01c84d13f168864c8389b8af9bdd911) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Wall_Hit.wav using Guid(e01c84d13f168864c8389b8af9bdd911) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d93c1713ed50f6cd02bf05e852bd109') in 0.2971834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89f2440dd611f8248e554f1de3aabec8') in 0.4350974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/BGM/Labyrinth BGM 1.mp3
+  artifactKey: Guid(9b0c039a456b4c748bdde2c7c4d9d69d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BGM/Labyrinth BGM 1.mp3 using Guid(9b0c039a456b4c748bdde2c7c4d9d69d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd945604bc9e779c47a54ebb2557cc94b') in 0.252639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13e0d1dcba5b0edb0409f9aa8b6fe95d') in 0.129846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e238209c3c669d5c490ce6c54b253bef') in 1.197377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SFX/Player Hurt.wav
+  artifactKey: Guid(04c06fd0b8f41b64d821bec120b756ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SFX/Player Hurt.wav using Guid(04c06fd0b8f41b64d821bec120b756ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40026045130ab466fe51e0a994328946') in 0.2477762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.481588 seconds.
+  path: Assets/BGM/The Labyrinth BGM (Main).mp3
+  artifactKey: Guid(ba16c5d74862b234893c9f5928cc5459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BGM/The Labyrinth BGM (Main).mp3 using Guid(ba16c5d74862b234893c9f5928cc5459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee52f5020418872d1a2cbaf80411c6b8') in 0.8992778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/BGM/The Labyrinth Gameover.mp3
+  artifactKey: Guid(2ca6f15fd643c1045a7d73b29db44d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BGM/The Labyrinth Gameover.mp3 using Guid(2ca6f15fd643c1045a7d73b29db44d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fce728c995a9af67235f3447fb4552b') in 0.1411383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5902 unused Assets / (3.4 MB). Loaded Objects now: 6707.
+Memory consumption went from 160.0 MB to 156.6 MB.
+Total: 73.288700 ms (FindLiveObjects: 3.769600 ms CreateObjectMapping: 4.445600 ms MarkObjects: 52.186100 ms  DeleteObjects: 12.880500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 19.434 seconds
+Refreshing native plugins compatible for Editor in 10.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.496 seconds
+Domain Reload Profiling: 36849ms
+	BeginReloadAssembly (3177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (85ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (807ms)
+	RebuildCommonClasses (736ms)
+	RebuildNativeTypeToScriptingClass (180ms)
+	initialDomainReloadingComplete (442ms)
+	LoadAllAssembliesAndSetupDomain (14815ms)
+		LoadAssemblies (12475ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4142ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (3950ms)
+			ResolveRequiredComponents (98ms)
+	FinalizeReload (17499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (69ms)
+			BeforeProcessingInitializeOnLoad (2061ms)
+			ProcessInitializeOnLoadAttributes (8649ms)
+			ProcessInitializeOnLoadMethodAttributes (1217ms)
+			AfterProcessingInitializeOnLoad (238ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (110ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5907 unused Assets / (3.5 MB). Loaded Objects now: 6708.
+Memory consumption went from 159.3 MB to 155.8 MB.
+Total: 61.594700 ms (FindLiveObjects: 3.094700 ms CreateObjectMapping: 4.204200 ms MarkObjects: 40.750800 ms  DeleteObjects: 13.539700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Couldn't register non-exiting asset root folder: 'Library/BuildInstructions'
+AssetDatabase failed to register asset folder Library/BuildInstructions
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.Unsafe.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.Unsafe.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll
+Failed to determine dll type for Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll
+Failed to load shader (instanceID 574, GUID a4d8d31aecf938048b2f9876df2ecb15)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5888 unused Assets / (1.8 MB). Loaded Objects now: 6709.
+Memory consumption went from 156.1 MB to 154.3 MB.
+Total: 349.839800 ms (FindLiveObjects: 2.928000 ms CreateObjectMapping: 5.549700 ms MarkObjects: 290.865500 ms  DeleteObjects: 50.491700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Couldn't register non-exiting asset root folder: 'Library/BuildInstructions'
+AssetDatabase failed to register asset folder Library/BuildInstructions
+Failed to load shader (instanceID 574, GUID a4d8d31aecf938048b2f9876df2ecb15)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 19.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5000 unused Assets / (1.0 MB). Loaded Objects now: 5833.
+Memory consumption went from 153.4 MB to 152.4 MB.
+Total: 170.473300 ms (FindLiveObjects: 11.709900 ms CreateObjectMapping: 20.778800 ms MarkObjects: 124.326200 ms  DeleteObjects: 13.652000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Couldn't register non-exiting asset root folder: 'Library/BuildInstructions'
+AssetDatabase failed to register asset folder Library/BuildInstructions
+Failed to load shader (instanceID 574, GUID a4d8d31aecf938048b2f9876df2ecb15)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4284 unused Assets / (1.6 MB). Loaded Objects now: 5121.
+Memory consumption went from 150.3 MB to 148.7 MB.
+Total: 345.669700 ms (FindLiveObjects: 2.625500 ms CreateObjectMapping: 4.698900 ms MarkObjects: 275.560500 ms  DeleteObjects: 62.779200 ms)
+
+Prepare: number of updated asset objects reloaded= 20
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.

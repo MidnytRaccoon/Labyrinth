@@ -1,0 +1,5 @@
+void Start()
+{
+    Rigidbody rb = gameObject.AddComponent<Rigidbody>();
+    rb.constraints = RigidbodyConstraints.FreezeRotation;
+}

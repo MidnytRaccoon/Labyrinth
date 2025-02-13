@@ -1,0 +1,11 @@
+IEnumerator Die()
+{
+    float elapsedTime = 0f;
+    while (elapsedTime < 3f)
+    {
+        transform.position += Vector3.up * Time.deltaTime;
+        elapsedTime += Time.deltaTime;
+        yield return null;
+    }
+    Destroy(gameObject);
+}

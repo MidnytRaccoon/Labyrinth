@@ -1,0 +1,11 @@
+public float sprintMultiplier = 1.8f;
+
+void Update()
+{
+    float speed = moveSpeed;
+    if (Input.GetKey(KeyCode.LeftShift))
+    {
+        speed *= sprintMultiplier;
+    }
+    transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
+}

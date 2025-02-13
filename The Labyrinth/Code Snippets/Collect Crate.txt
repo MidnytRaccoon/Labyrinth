@@ -1,0 +1,15 @@
+IEnumerator CollectCrate()
+{
+    float elapsedTime = 0f;
+    Renderer rend = GetComponent<Renderer>();
+
+    while (elapsedTime < 1f)
+    {
+        transform.position += Vector3.up * Time.deltaTime;
+        rend.material.color = new Color(1, 1, 0, 1 - elapsedTime);
+        elapsedTime += Time.deltaTime;
+        yield return null;
+    }
+
+    Destroy(gameObject);
+}
