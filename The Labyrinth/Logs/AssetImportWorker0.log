@@ -94,3 +94,119 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBl
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.138379 seconds.
+- Loaded All Assemblies, in 36.608 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 36.988 seconds
+Domain Reload Profiling: 73567ms
+	BeginReloadAssembly (27473ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (130ms)
+	RebuildCommonClasses (1515ms)
+	RebuildNativeTypeToScriptingClass (372ms)
+	initialDomainReloadingComplete (1510ms)
+	LoadAllAssembliesAndSetupDomain (5696ms)
+		LoadAssemblies (27274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5658ms)
+			TypeCache.Refresh (5612ms)
+				TypeCache.ScanAssembly (5412ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (37002ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (34838ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1278ms)
+			SetLoadedEditorAssemblies (306ms)
+			BeforeProcessingInitializeOnLoad (496ms)
+			ProcessInitializeOnLoadAttributes (29369ms)
+			ProcessInitializeOnLoadMethodAttributes (3282ms)
+			AfterProcessingInitializeOnLoad (106ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 47.957 seconds
+Refreshing native plugins compatible for Editor in 13.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.446 seconds
+Domain Reload Profiling: 65134ms
+	BeginReloadAssembly (15337ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (774ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (543ms)
+	RebuildCommonClasses (701ms)
+	RebuildNativeTypeToScriptingClass (461ms)
+	initialDomainReloadingComplete (2283ms)
+	LoadAllAssembliesAndSetupDomain (28901ms)
+		LoadAssemblies (27437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4605ms)
+			TypeCache.Refresh (3046ms)
+				TypeCache.ScanAssembly (2866ms)
+			BuildScriptInfoCaches (1287ms)
+			ResolveRequiredComponents (240ms)
+	FinalizeReload (17452ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (13160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (76ms)
+			BeforeProcessingInitializeOnLoad (1240ms)
+			ProcessInitializeOnLoadAttributes (10357ms)
+			ProcessInitializeOnLoadMethodAttributes (1212ms)
+			AfterProcessingInitializeOnLoad (212ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (126ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 23.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5914 unused Assets / (4.7 MB). Loaded Objects now: 6680.
+Memory consumption went from 177.8 MB to 173.1 MB.
+Total: 119.547100 ms (FindLiveObjects: 4.402800 ms CreateObjectMapping: 5.353200 ms MarkObjects: 50.498100 ms  DeleteObjects: 59.288200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97936.642705 seconds.
+  path: Assets/Scripts/crate.cs
+  artifactKey: Guid(9c447f5a2819d964d8dbbedde35a8ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/crate.cs using Guid(9c447f5a2819d964d8dbbedde35a8ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d9b4f10f5d01ecb804e4a2bf4e5b8d4') in 0.0479312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be5ba4d5b2b3ffcc56475d7901d8b3') in 0.3492768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.1559719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

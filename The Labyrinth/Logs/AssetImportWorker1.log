@@ -94,3 +94,95 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBl
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.092739 seconds.
+- Loaded All Assemblies, in 41.752 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 37.675 seconds
+Domain Reload Profiling: 79365ms
+	BeginReloadAssembly (31727ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3544ms)
+	RebuildCommonClasses (1219ms)
+	RebuildNativeTypeToScriptingClass (440ms)
+	initialDomainReloadingComplete (1440ms)
+	LoadAllAssembliesAndSetupDomain (6853ms)
+		LoadAssemblies (27966ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6817ms)
+			TypeCache.Refresh (6747ms)
+				TypeCache.ScanAssembly (6453ms)
+			BuildScriptInfoCaches (5ms)
+			ResolveRequiredComponents (59ms)
+	FinalizeReload (37686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (34596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4122ms)
+			SetLoadedEditorAssemblies (80ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (27157ms)
+			ProcessInitializeOnLoadMethodAttributes (3001ms)
+			AfterProcessingInitializeOnLoad (106ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 47.403 seconds
+Refreshing native plugins compatible for Editor in 14.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 20.539 seconds
+Domain Reload Profiling: 67750ms
+	BeginReloadAssembly (14770ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (408ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (892ms)
+	RebuildCommonClasses (1277ms)
+	RebuildNativeTypeToScriptingClass (386ms)
+	initialDomainReloadingComplete (3529ms)
+	LoadAllAssembliesAndSetupDomain (27234ms)
+		LoadAssemblies (25088ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4673ms)
+			TypeCache.Refresh (3030ms)
+				TypeCache.ScanAssembly (2885ms)
+			BuildScriptInfoCaches (1489ms)
+			ResolveRequiredComponents (129ms)
+	FinalizeReload (20553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (14351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (70ms)
+			BeforeProcessingInitializeOnLoad (1313ms)
+			ProcessInitializeOnLoadAttributes (11657ms)
+			ProcessInitializeOnLoadMethodAttributes (1113ms)
+			AfterProcessingInitializeOnLoad (166ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 16.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5914 unused Assets / (3.5 MB). Loaded Objects now: 6680.
+Memory consumption went from 177.8 MB to 174.3 MB.
+Total: 108.097500 ms (FindLiveObjects: 3.755800 ms CreateObjectMapping: 7.708100 ms MarkObjects: 83.457200 ms  DeleteObjects: 13.172000 ms)
+
