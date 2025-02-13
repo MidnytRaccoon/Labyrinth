@@ -1,0 +1,62 @@
+using UnityEngine;
+using System.Collections;
+
+public class LabyrinthWall : MonoBehaviour
+{
+    private Vector3 loweredPosition;
+    private Vector3 raisedPosition;
+    private bool isRising = false;
+
+    void Start()
+    {
+        loweredPosition = transform.position;
+        raisedPosition = new Vector3(transform.position.x, transform.position.y + 3f, transform.position.z);
+        StartCoroutine(ToggleWalls());
+    }
+
+    IEnumerator ToggleWalls()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(15f);
+            bool shouldRise = Random.value > 0.5f; // 50% chance to rise or stay
+
+            if (shouldRise)
+            {
+                yield return StartCoroutine(RaiseWall());
+            }
+            else
+            {
+                yield return StartCoroutine(LowerWall());
+            }
+        }
+    }
+
+    IEnumerator RaiseWall()
+    {
+        isRising = true;
+        float elapsedTime = 0f;
+        while (elapsedTime < 3f)
+        {
+            transform.position = Vector3.Lerp(loweredPosition, raisedPosition, elapsedTime / 3f);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = raisedPosition;
+        isRising = false;
+    }
+
+    IEnumerator LowerWall()
+    {
+        isRising = true;
+        float elapsedTime = 0f;
+        while (elapsedTime < 3f)
+        {
+            transform.position = Vector3.Lerp(raisedPosition, loweredPosition, elapsedTime / 3f);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = loweredPosition;
+        isRising = false;
+    }
+}

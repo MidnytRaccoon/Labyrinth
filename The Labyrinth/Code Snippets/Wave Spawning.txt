@@ -1,0 +1,45 @@
+using UnityEngine;
+using System.Collections;
+
+public class EnemyWaveSpawner : MonoBehaviour
+{
+    public GameObject enemyPrefab; // Enemy to spawn
+    public Transform[] spawnPoints; // Different spawn locations
+    public int waveCount = 5; // Total number of waves
+    public int enemiesPerWave = 3; // Enemies per wave
+    public float timeBetweenWaves = 5f; // Time between each wave
+    public float timeBetweenSpawns = 1f; // Time between each enemy spawn
+
+    void Start()
+    {
+        StartCoroutine(SpawnWaves());
+    }
+
+    IEnumerator SpawnWaves()
+    {
+        for (int wave = 1; wave <= waveCount; wave++) // Loop through waves
+        {
+            Debug.Log("Wave " + wave + " starting...");
+
+            for (int i = 0; i < enemiesPerWave; i++) // Spawn each enemy
+            {
+                SpawnEnemy();
+                yield return new WaitForSeconds(timeBetweenSpawns); // Delay between enemy spawns
+            }
+
+            Debug.Log("Wave " + wave + " complete. Next wave in " + timeBetweenWaves + " seconds...");
+            yield return new WaitForSeconds(timeBetweenWaves); // Delay before the next wave starts
+        }
+
+        Debug.Log("All waves completed!");
+    }
+
+    void SpawnEnemy()
+    {
+        // Pick a random spawn point
+        Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
+
+        // Spawn the enemy at the chosen spawn point
+        Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
+    }
+}

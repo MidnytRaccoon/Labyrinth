@@ -1,0 +1,73 @@
+using UnityEngine;
+using System.Collections;
+
+public class AdaptiveEnemyWaveSpawner : MonoBehaviour
+{
+    public GameObject enemyPrefab; // Basic enemy prefab
+    public GameObject strongerEnemyPrefab; // Stronger enemy prefab for later waves
+    public Transform[] spawnPoints; // Different spawn locations
+
+    public int waveCount = 10; // Total number of waves
+    public int enemiesPerWave = 3; // Base enemies per wave
+    public float timeBetweenWaves = 5f; // Time between waves
+    public float timeBetweenSpawns = 1f; // Time between each enemy spawn
+
+    private int currentWave = 1;
+
+    void Start()
+    {
+        StartCoroutine(SpawnWaves());
+    }
+
+    IEnumerator SpawnWaves()
+    {
+        while (currentWave <= waveCount) // Loop through waves
+        {
+            Debug.Log("Wave " + currentWave + " starting...");
+
+            int enemiesToSpawn = enemiesPerWave + (currentWave / 2); // Increase enemy count every 2 waves
+            float enemyHealthMultiplier = 1 + (currentWave * 0.1f); // Increase enemy health by 10% per wave
+            float enemySpeedMultiplier = 1 + (currentWave * 0.05f); // Increase speed by 5% per wave
+
+            for (int i = 0; i < enemiesToSpawn; i++) // Spawn each enemy
+            {
+                GameObject enemy;
+
+                // Introduce stronger enemies starting from wave 5
+                if (currentWave >= 5 && Random.value > 0.7f)
+                {
+                    enemy = Instantiate(strongerEnemyPrefab, GetRandomSpawnPoint(), Quaternion.identity);
+                }
+                else
+                {
+                    enemy = Instantiate(enemyPrefab, GetRandomSpawnPoint(), Quaternion.identity);
+                }
+
+                // Scale enemy difficulty
+                Enemy enemyScript = enemy.GetComponent<Enemy>();
+                if (enemyScript != null)
+                {
+                    enemyScript.health *= enemyHealthMultiplier;
+                    enemyScript.speed *= enemySpeedMultiplier;
+                }
+
+                yield return new WaitForSeconds(timeBetweenSpawns);
+            }
+
+            // Reduce time between waves as difficulty increases
+            timeBetweenWaves = Mathf.Max(2f, timeBetweenWaves - 0.3f);
+
+            Debug.Log("Wave " + currentWave + " complete. Next wave in " + timeBetweenWaves + " seconds...");
+            yield return new WaitForSeconds(timeBetweenWaves);
+
+            currentWave++;
+        }
+
+        Debug.Log("All waves completed!");
+    }
+
+    Vector3 GetRandomSpawnPoint()
+    {
+        return spawnPoints[Random.Range(0, spawnPoints.Length)].position;
+    }
+}

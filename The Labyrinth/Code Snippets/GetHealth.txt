@@ -1,0 +1,4 @@
+public float GetHealth()
+{
+    return health;
+}

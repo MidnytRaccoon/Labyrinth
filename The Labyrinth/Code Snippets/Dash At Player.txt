@@ -1,0 +1,8 @@
+IEnumerator DashAtPlayer()
+{
+    yield return new WaitForSeconds(0.5f);
+    transform.LookAt(player.transform);
+    GetComponent<Rigidbody>().velocity = transform.forward * 10f;
+    yield return new WaitForSeconds(0.6f);
+    GetComponent<Rigidbody>().velocity = Vector3.zero;
+}

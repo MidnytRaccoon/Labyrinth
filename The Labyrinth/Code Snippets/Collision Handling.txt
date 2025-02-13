@@ -1,0 +1,7 @@
+void OnCollisionEnter(Collision collision)
+{
+    if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Enemy"))
+    {
+        moveDirection = Vector3.zero; // Stop movement
+    }
+}

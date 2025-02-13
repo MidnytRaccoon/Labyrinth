@@ -1,0 +1,4 @@
+void MovePlayer()
+{
+    transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+}

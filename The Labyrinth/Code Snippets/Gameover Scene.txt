@@ -1,0 +1,4 @@
+void GameOver()
+{
+    UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
+}

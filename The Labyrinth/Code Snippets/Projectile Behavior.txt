@@ -1,0 +1,8 @@
+void OnCollisionEnter(Collision collision)
+{
+    if (collision.gameObject.CompareTag("Enemy"))
+    {
+        Destroy(collision.gameObject); // Destroy enemy
+    }
+    Destroy(gameObject, 1.2f); // Self-destroy if nothing is hit
+}

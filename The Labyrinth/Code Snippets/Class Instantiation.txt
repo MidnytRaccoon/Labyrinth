@@ -1,0 +1,57 @@
+using UnityEngine;
+
+public class Wall : MonoBehaviour
+{
+    private void Start()
+    {
+        GetComponent<Renderer>().material.color = Color.gray; // Walls are White
+    }
+}
+
+public class Crate : MonoBehaviour
+{
+    private void Start()
+    {
+        GetComponent<Renderer>().material.color = Color.brown; // Crates are Yellow
+    }
+}
+
+public class Enemy : MonoBehaviour
+{
+    public float health;
+    private void Start()
+    {
+        health = 50f;
+        GetComponent<Renderer>().material.color = Color.red; // Enemies are Red
+    }
+}
+
+public class Player : MonoBehaviour
+{
+    [SerializeField] public int health;
+    [SerializeField] public int ammo;
+    [SerializeField] public float reloadSpeed = 1f;
+
+    private void Start()
+    {
+        ammo = 100;
+        health = 100f;
+        GetComponent<Renderer>().material.color = new Color(1.0f, 0.5f, 0.0f); // Orange Player
+    }
+
+    private void update(){
+        checkForInput();
+        checkHealth();
+    }
+
+    private void checkForInput(){
+        moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+    }
+
+    private void checkHealth(){
+        if (health <= 0){
+            gameOver();
+        }
+    }
+}

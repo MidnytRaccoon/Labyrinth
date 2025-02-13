@@ -1,0 +1,10 @@
+public int ammo = 50;
+
+void FireProjectile()
+{
+    if (ammo > 0)
+    {
+        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        ammo--;
+    }
+}

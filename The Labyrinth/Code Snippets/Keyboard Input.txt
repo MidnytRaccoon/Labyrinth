@@ -1,0 +1,13 @@
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float moveSpeed = 5f;
+    private Vector3 moveDirection;
+
+    void Update()
+    {
+        moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+    }
+}
